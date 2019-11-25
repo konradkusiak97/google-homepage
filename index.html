@@ -2,20 +2,66 @@
 
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="./style.css">
-        <title>My-google</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="./styles.css" rel="stylesheet">
+        <link href="./footer.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Google</title>
     </head>
     <body>
         <main>
-            <div class="main-logo">
-                <img alt="google logo" src="./google.jpg" class="logo">
+            <div class="topnav">
+                <div class="leftnav">
+                    <nav class="nav">
+                        <a class="nav-link disabled" href="./konrad.html">Dogs</a>
+                        <a class="nav-link disabled" href="#">Cats</a>
+                        <a class="nav-link disabled" href="#">Horses</a>
+                    </nav>
+                </div>
+                <div class="rightnav">
+                    <nav class="nav justify-content-end">
+                        <a class="nav-link disabled" href="./konrad.html">Gmail</a>
+                        <a class="nav-link disabled" href="#">Images</a>
+                        <a class="nav-link disabled" href="#">Apps</a>
+                    </nav>
+                </div>
             </div>
-            <div class="forms">
-                <form action="https://www.google.com/search" method="get">
-                    <input name="q" type="text" class="main-form">
-                    <input type="submit" value="Search" class="search-button">
-                </form>
+            <div class="logo">
+                <img alt="google logo" src="./google.jpg" class="logo-img">
             </div>
+            <form action="https://www.google.com/search" method="get">
+                <div class="form-group">
+                    <input name="q" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Type in here...">
+                </div>
+                <div class="buttons">
+                    <button name="action" type="submit" class="btn btn-light" value="Search">Google Search</button>
+                    <button name="action" type="submit" class="btn btn-light" value="Search">I'm Feeling Lucky</button>
+                </div>
+            </form>
         </main>
+        <div class="_hq _ih" id="fbar">
+            <div class="fbar">
+                <span id="fsr">
+                    <a class="_Sh" href="#">Privacy &amp; Terms</a>
+                <span style="display:inline-block;position:relative">
+                    <a class="_Se" href="#" id="fsettl" jsaction="foot.cst">Settings</a>
+                <span id="fsett" style="display:none">
+                    <a href="#">Search settings</a>
+                <span>
+                    <a href="#">Advanced search</a>
+                </span>
+                    <a href="#">Web History</a>
+                    <a href="#">Search Help</a>
+                </span> </span>
+                    <a class="_Se" href="#">Use Google.com</a>
+                </span>
+                <span id="fsl">
+                    <a class="_Sh" href="#">Advertising</a>
+                    <a class="_Se" href="#">Business</a>
+                    <a class="_Se" href="#">About</a>
+                </span>
+            </div>
+        </div>
     </body>
 </html>
